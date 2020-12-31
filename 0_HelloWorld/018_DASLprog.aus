@@ -1,0 +1,7 @@
+package helloworld.aus;
+
+initial state
+{
+  String name="Hello World";
+  usage{ name "" :R}
+} 
