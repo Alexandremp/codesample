@@ -1,0 +1,8 @@
+
+.PROC
+    XCALL FLAGS (0007000000,1)		;Suppress STOP message
+    OPEN (8,O:C,"TT:")        		;Open the terminal/display
+    WRITES(8,"Hello World.") 
+    CLOSE 8
+    STOP
+.END
